@@ -1,9 +1,9 @@
-import * as Header from './Header';
-import * as Footer from './Footer';
+import HeaderBlock from './Header';
+import FooterBlock from './Footer';
 import * as Buttons from './Buttons';
 
 export {
-    Header,
-    Footer,
+    HeaderBlock,
+    FooterBlock,
     Buttons
 }

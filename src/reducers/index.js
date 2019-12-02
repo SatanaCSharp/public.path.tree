@@ -1,7 +1,9 @@
-import { combineReducer } from "redux";
+import { combineReducers } from "redux";
 import { path } from "./path";
+import { tree } from "./tree";
 
-const rootReducer = combineReducer({
-    path
+const rootReducer = combineReducers({
+    path,
+    tree
 });
 export default rootReducer;

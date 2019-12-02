@@ -3,6 +3,7 @@ import {
     PATH_CREATE_FULFILLED,
     PATH_UPDATE_FULFILLED,
     PATH_SHOW_FULFILLED,
+    PATH_DELETE_FULFILLED,
 } from '../constants/actionTypes';
 
 export const path = (state={}, {type, payload}) => {
