@@ -30,6 +30,9 @@ class Tree extends Component {
                             handleButtonClick={this.handleButtonClick}
                         />
                     </section>
+                    <section className="paths-list">
+                        
+                    </section>
                 </section>
             </section>
         )
