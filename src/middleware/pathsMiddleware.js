@@ -66,6 +66,7 @@ function*  deletePath(action) {
     try {
         const { payload: {pathId}} = action;
         const paths = yield call(async()=> await deletePathRequest(pathId));
+        console.log(paths);
         yield put(pathDeleteFulfilled(paths));
     }catch (err) {
         yield put(pathDeleteRejected());

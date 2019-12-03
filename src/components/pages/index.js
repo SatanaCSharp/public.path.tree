@@ -1,5 +1,9 @@
-import Tree from './Tree';
+import Path from './Path';
+import EditPath from './EditPath';
+import TreeNode from './TreeNode';
 
 export {
-    Tree
+    Path,
+    EditPath,
+    TreeNode
 }

@@ -9,13 +9,13 @@ const CloseButton = ({ handleButtonClick }) => (
     <FiX size={25} color={"#6c757d"} onClick={handleButtonClick}/>
 );
 const DeleteButton = ({ handleButtonClick }) => (
-    <FiTrash size={25} color={"#8a2727"} onClick={handleButtonClick}/>
+    <FiTrash size={25}  color={"#8a2727"} onClick={handleButtonClick}/>
 );
 const EditButton = ({ handleButtonClick }) => (
     <FiEdit2 size={25} color={"#008CBA"} onClick={handleButtonClick}/>
 );
 const TreeButton = ({ handleButtonClick }) => (
-    <GiFamilyTree size={25} color={"#555555"} onClick={handleButtonClick}/>
+    <GiFamilyTree  size={25} color={"#555555"} onClick={handleButtonClick}/>
 );
 
 
@@ -27,10 +27,22 @@ SuccessButton.propTypes = {
 CloseButton.propTypes = {
     handleButtonClick: PropTypes.func.isRequired
 };
+DeleteButton.propTypes = {
+    handleButtonClick: PropTypes.func.isRequired
+};
+EditButton.propTypes = {
+    handleButtonClick: PropTypes.func.isRequired
+};
+EditButton.propTypes = {
+    handleButtonClick: PropTypes.func.isRequired
+};
 
 
 
 export {
     SuccessButton,
-    CloseButton
+    CloseButton,
+    DeleteButton,
+    EditButton,
+    TreeButton
 }
