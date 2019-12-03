@@ -2,6 +2,7 @@ import React, { Component} from "react";
 import { withRouter } from 'react-router-dom'
 import { connect } from "react-redux";
 import { Loader} from "../../blocks";
+import {Buttons} from "../../blocks";
 import {treePending} from "../../../actions/treeActionCreator";
 
 function Node({ paths }) {
@@ -27,7 +28,8 @@ class TreeNode  extends Component {
         return (
             <section className="tree-section">
                 <section className="container">
-                     <Node paths={tree}/>
+                     <Buttons.BackButton title={"Go Back"} to={"/"}/>
+                    {!tree.name ?<h3 className={"empty-page"}> There is no directory!</h3> :  <Node paths={tree}/>}
                 </section>
             </section>
         )

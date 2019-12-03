@@ -7,5 +7,6 @@
 @import '../blocks/Header/header.scss';
 @import '../portals/modal.scss';
 @import '../blocks/Loader/loader.scss';
-@import '../pages/Path/createForm.scss';
-@import '../pages/Path/pathsList.scss';
+@import '../pages/Path/path';
+@import '../pages/DeletePathModal/deleteModal';
+@import '../pages/TreeNode/treeNode';

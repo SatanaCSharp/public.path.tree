@@ -10,7 +10,6 @@ class App extends Component {
         <HeaderBlock/>
           <Router>
             <Switch>
-              <Route path="/path/:id" component={Page.EditPath}/>
               <Route path="/tree/path/:id" component={Page.TreeNode}/>
               <Route path="/" component={Page.Path}/>
             </Switch>

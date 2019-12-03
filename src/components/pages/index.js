@@ -1,9 +1,11 @@
 import Path from './Path';
-import EditPath from './EditPath';
+import EditPathModal from './EditPathModal';
+import DeletePathModal from './DeletePathModal';
 import TreeNode from './TreeNode';
 
 export {
     Path,
-    EditPath,
-    TreeNode
+    EditPathModal,
+    TreeNode,
+    DeletePathModal
 }
