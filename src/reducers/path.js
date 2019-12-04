@@ -62,7 +62,6 @@ export const paths = (state={}, {type,  payload, isLoading}) => {
             };
         case PATH_DELETE_FULFILLED:
             return {
-                ...state,
                 isLoading,
                 ...payload
             };
